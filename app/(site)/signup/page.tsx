@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import SignInForm from "./components/SignInForm";
 import { Sign } from "crypto";
+import SignUpForm from "./components/SignUpForm";
 const page = () => {
   return (
     <div className="lg:h-screen h-fit w-screen flex items-center justify-center flex-col">
@@ -19,16 +19,16 @@ const page = () => {
       </div>
       <div className="w-[60%]  h-[60%] flex flex-col items-center gap-8">
         <h2 className="text-4xl font-bold">
-          Welcome <span className="text-blue-600 ">Back</span>
+          Start <span className="text-blue-600 ">Here</span>
         </h2>
-        <SignInForm />
+        <SignUpForm />
         <div className="text-sm text-gray-400">
-          Does not have an account ?{" "}
+          Already have an account ?{" "}
           <a
-            href="/signup"
+            href="/login"
             className="font-semibold text-gray-800 cursor-pointer"
           >
-            Sign Up
+            Log In
           </a>{" "}
         </div>
       </div>

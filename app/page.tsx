@@ -73,6 +73,13 @@ export default function Home() {
               >
                 NextAuth
               </a>
+              <a
+                target="_blank"
+                href="https://next-auth.js.org"
+                className={`m-0 max-w-[30ch] text-sm opacity-50 hover:text-blue-400 hover:opacity-90`}
+              >
+                React Hook Form
+              </a>
             </div>
             <div className="flex flex-col gap-2">
               <a
@@ -88,6 +95,13 @@ export default function Home() {
                 className={`m-0 max-w-[30ch] text-sm opacity-50 hover:text-blue-400 hover:opacity-90`}
               >
                 Prisma
+              </a>
+              <a
+                target="_blank"
+                href="https://www.prisma.io"
+                className={`m-0 max-w-[30ch] text-sm opacity-50 hover:text-blue-400 hover:opacity-90`}
+              >
+                Axios
               </a>
             </div>
           </div>
@@ -113,12 +127,20 @@ export default function Home() {
               Dashboard page
             </a>
           </div>
-          <a
-            href="/"
-            className={`m-0 max-w-[30ch] text-sm opacity-50 pt-2 hover:text-blue-400 hover:opacity-90`}
-          >
-            Custem Login page
-          </a>
+          <div className="flex flex-col">
+            <a
+              href="/"
+              className={`m-0 max-w-[30ch] text-sm opacity-50 pt-2 hover:text-blue-400 hover:opacity-90`}
+            >
+              Log In page
+            </a>
+            <a
+              href="/"
+              className={`m-0 max-w-[30ch] text-sm opacity-50 pt-2 hover:text-blue-400 hover:opacity-90`}
+            >
+              Sign Up page
+            </a>
+          </div>
         </div>
         {/*card 3 */}
         <div
